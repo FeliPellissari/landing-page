@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    height: 630px;
+    background-color: #2C0041;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.maquina{
+    padding-top: 150px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.social_medias{
+    display: flex;
+    width: 270px;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+}
+
+.social_media_icon{
+    border-radius:30%;
+    box-shadow: 0 0 0 3px #e78267;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.271);
+}
+
+.seta_img{
+    transform: rotate(-90deg);
+}
+
+.flecha{
+    padding-top: 90px;
+    animation: slidedown 1.5s linear 0s infinite normal none;
+}
+
+@keyframes slidedown{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

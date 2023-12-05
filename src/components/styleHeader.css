@@ -20,12 +20,13 @@
 }
 
 .meu_nome_link{
-    color: rgb(55, 55, 55);
+    color: beige;
     margin-left: 120px;
+    transition: color 0.3s;
 }
 
 .meu_nome_link:hover{
-    color: beige;
+    color: rgb(55, 55, 55);
 }
 
 .navbar{
@@ -42,10 +43,12 @@
     color: rgb(84, 4, 77);
     padding: 14px;
     position: relative;
+    border-radius: 22px;
+    transition: all 0.3s;
 }
 
 .navbar_item:hover{
     background-color: rgb(53, 12, 91);
     color: #f5a6eb;
-    border-radius: 22px;
+    transform: translateY(-5px);
 }
