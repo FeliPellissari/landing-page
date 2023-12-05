@@ -7,7 +7,7 @@ function About(){
         <>
             <Header />
 
-            <main className="conteudo">
+            <main className="about">
                 <section className="section">
                     
                 </section>
